@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body {
+	padding: 50px; 
+}
+div {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.calendar {
+	width: 600px;
+	height: 600px;
+	border-radius: 100px;
+	box-shadow: 5px 10px 50px #777;
+}
+.top {
+	height: 150px;
+	line-height: 150px;
+	border-radius: 100px 100px 0 0;
+	box-shadow: 0px 4px 4px #777;
+	text-shadow: -2px -2px #700;
+	font-size: 100px;
+	font-family: "helvetica";
+	font-weight: 600;
+	background: red;
+	color: white;
+}
+.bottom {
+	height: 450px;
+	padding: 25px
+}
+path {
+	stroke: #888;
+	fill: none;
+}
+circle {
+	fill: #222;
+}
+</style>
+
+</head>
+<body>
+
+<div class="calendar">
+  <div class="top">Weeklish</div>
+  <div class="bottom">
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="400" height="400" viewbox="-.05 -.05 6.1 6.1">
+  <path d="
+m 0 0
+h 6
+v 6
+h -6
+z
+m 0 2
+h 6
+m -6 2
+h 6
+m -4 -4
+v 6
+m 2 -6
+v 6
+" style="stroke-width:.1;"/>
+  <circle cx="1" cy="5" r=".8"/>
+  <circle cx="3" cy="1" r=".8"/>
+  <circle cx="3" cy="5" r=".8"/>
+  <circle cx="5" cy="3" r=".8"/>
+  <circle cx="5" cy="5" r=".8"/>
+</svg>
+
+  </div>
+</div>
+
+</body>
+</html>
